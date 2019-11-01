@@ -1,0 +1,95 @@
+/* Start Footer */
+
+.footer {
+    padding: 100px 0
+  }
+  
+  .footer .site-info h2 {
+    font-size: 50px;
+    margin-bottom: 35px;
+  }
+  
+  .footer .site-info h2 span:first-child {
+    color: #08526d;
+    font-weight: bold;
+  }
+  
+  .footer .site-info h2 span:last-child {
+    color: #ec1c23;
+  }
+  
+  .footer .site-info p {
+    line-height: 1.8;
+    color: #727272
+  }
+  
+  .footer .site-info a {
+    color: #08526d;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .footer .site-info a:before {
+    font-family: 'FontAwesome';
+    content: "\f138";
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .footer .helpful-links h2,
+  .footer .contact h2 {
+    font-size: 22px;
+    color: #08526d;
+    margin-bottom: 68px;
+  }
+  
+  .footer .helpful-links ul li:before {
+    font-family: 'FontAwesome';
+    content: "\f054";
+    margin-right: 5px;
+    color: #08526d;
+    font-size: 12px;
+    position: relative;
+    top: -1px;
+  }
+  
+  .footer .contact ul li {
+    margin-bottom: 24px;
+  }
+  
+  @media (max-width: 992px) {
+    .footer .helpful-links h2,
+    .footer .contact h2 {
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    .footer .contact ul li {
+      margin-bottom: 5px;
+    }
+  }
+  
+  /* End Footer */
+  
+  /* Start Copyright */
+  
+  .copyright {
+    border-top: 1px solid #c0c0c0;
+    padding: 20px;
+  }
+  
+  .copyright ul {
+    margin: 0
+  }
+  
+  .copyright ul li {
+    display: inline-block;
+  }
+  
+  .copyright ul li a {
+    color: #777;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  
+  /* End Copyright */
