@@ -126,16 +126,11 @@ font-family: 'Poppins', sans-serif;
   border: none;
   width: 160px;
   height: 50px;
-align-self: center;
+  align-self: center;
 }
 
-
-/* End Choose Us */
-
-
-
-
-/* Start Featured Work */
+/*================== End Choose Us================= */
+/*============ Start Featured Work==================== */
 .featured-work {
   padding: 80px 0px 0px 0px;
 }
@@ -197,7 +192,6 @@ align-self: center;
   width: 100%;
    
 }
-
 /*===============End Featured Work===================== */
 /*=============== Start Stats========================== */
 .stats {
@@ -260,9 +254,8 @@ margin: 20px;
   font-weight: bold
 }
 
-/* End Latest Posts */
-
-/* Start Overview */
+/*===================End Latest Posts ======================*/
+/*================== Start Overview ========================*/
 
 .overview {
   padding: 70px;
@@ -290,11 +283,11 @@ margin: 20px;
 }
 
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .overview p {
     width: 100%;
   }
-}
+} */
  
  
 /* End Overview */
