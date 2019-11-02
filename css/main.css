@@ -3,14 +3,7 @@
   margin: 0px;
   box-sizing: border-box;
 }
-/* body{
-font-family: 'Poppins', sans-serif;
-
-} */
-
 /*=====================Start Navbar================== */
-
-
 .navbar-brand > span {
   font-size: 40px
 }
@@ -32,11 +25,6 @@ font-family: 'Poppins', sans-serif;
 .navbar-nav .active > .nav-link {
   color: #333 !important
 }
-/* .navbar{
-  background-color: #EFEFF7;
-}
-  */
-
 /*====================End Navbar====================== */
 /*====================Start Features================== */
 .features {
@@ -92,31 +80,25 @@ font-family: 'Poppins', sans-serif;
 .choose-us img {
   max-width: 100%
 }
-
 .choose-us .info {
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .choose-us .infopic{
   padding-top: 30px;
-  
 }
-
 .choose-us .h1 {
   text-align: center;
   margin-top: 100px
 }
-
 .choose-us p {
   text-align: center;
   margin: 30px;
   line-height: 2;
   font-size: 18px
 }
-
 .choose-us .read-more {
   display: inline-block;
   background-color: #ffe056;
@@ -128,18 +110,15 @@ font-family: 'Poppins', sans-serif;
   height: 50px;
   align-self: center;
 }
-
 /*================== End Choose Us================= */
 /*============ Start Featured Work==================== */
 .featured-work {
   padding: 80px 0px 0px 0px;
 }
-
 .featured-work h2 {
   font-size: 40px;
   margin-bottom: 20px;
 }
-
 .featured-work p {
   line-height: 1.6;
   font-size: 20px;
@@ -147,12 +126,10 @@ font-family: 'Poppins', sans-serif;
   margin: 0 auto 15px;
   color: #6a6a6a;
 }
-
 .featured-work ul {
   margin-top: 40px;
   margin-bottom: 50px
 }
-
 .featured-work ul li {
   color: #08526d;
   border: 2px solid #08526d;
@@ -164,22 +141,18 @@ font-family: 'Poppins', sans-serif;
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-
 .featured-work ul li.active,
 .featured-work ul li:hover {
   background-color: #ffe056;
   border: 2px solid #ffe056;
   color: #333;
 }
-
 .featured-work ul li:hover {
   cursor: pointer
 }
-
 .featured-work .shuffle-imgs .row {
   margin: 0
 }
-
 .featured-work .shuffle-imgs .row .col-md {
   padding: 0;
   -webkit-transition: all .5s ease-in-out;
@@ -187,10 +160,8 @@ font-family: 'Poppins', sans-serif;
   -o-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
-
 .featured-work .row img {
   width: 100%;
-   
 }
 /*===============End Featured Work===================== */
 /*=============== Start Stats========================== */
@@ -201,12 +172,10 @@ font-family: 'Poppins', sans-serif;
 }
 .stats .stat-box{
 margin: 20px;
-
 }
 .stats .number {
   display: block;
   font-size: 30px;
-   
 }
 .stats p {
   color: #333;
@@ -214,18 +183,14 @@ margin: 20px;
   margin: 0
 }
 /*==================== End Stats========================== */
-
-/* Start Latest Posts */
-
+/* ====================Start Latest Posts================= */
 .latest-posts {
   padding: 80px 0 100px
 }
-
 .latest-posts h2 {
   font-size: 40px;
   margin-bottom: 20px;
 }
-
 .latest-posts .section-description {
   line-height: 1.6;
   font-size: 20px;
@@ -233,47 +198,38 @@ margin: 20px;
   margin: 0 auto 45px;
   color: #6a6a6a;
 }
-
 .latest-posts .card {
   margin-bottom: 30px
 }
-
 .latest-posts .card .card-title {
   font-size: 20px;
   line-height: 1.5;
   color: #08526d;
 }
-
 .latest-posts .card .card-text {
   color: #787878;
   margin-bottom: 5px;
 }
-
 .latest-posts .card .card-link {
   color: #08526d;
   font-weight: bold
 }
-
 /*===================End Latest Posts ======================*/
 /*================== Start Overview ========================*/
-
 .overview {
   padding: 70px;
   background-color: #f0f5f7
 }
-
 .overview h2 {
   font-size: 40px;
   margin-bottom: 30px;
 }
-
 @media (max-width: 992px) {
   .overview h2 {
     font-size: 30px;
     margin-bottom: 15px
   }
 }
-
 .overview .section-description {
   line-height: 1.6;
   font-size: 20px;
@@ -281,56 +237,44 @@ margin: 20px;
   margin: 0 auto 45px;
   color: #6a6a6a;
 }
-
-
 @media (max-width: 992px) {
   .overview .section-description {
     width: 100%;
   }
 }
- 
- 
-/* End Overview */
+/*================ End Overview======================= */
 /*===============Starting Footer=======================*/
-
 .footer {
   background-color: #232323;
   padding: 30px 0;
   color: #fff;
 }
-
 .footer .fitem h2 {
   font-size: 20px;
 }
-
 .footer .fitem p {
   text-align: left;
   line-height: 1.6;
   padding-top: 20px;
   color: #fff;
 }
-
 .footer .fitem .socialicons {
   list-style: none;
   padding-left: 0;
   overflow: hidden;
 }
-
 .footer .fitem .socialicons li {
   float: left;
   padding: 20px 0;
   margin-left: 0;
   color: #fff;
 }
-
 .footer .fitem .socialicons li:hover {
   cursor: pointer;
 }
-
 .footer .fitem .t-box {
   padding-top: 20px;
 }
-
 .footer .fitem .t-box a {
   display: inline-block;
   color: #FFF;
@@ -339,49 +283,39 @@ margin: 20px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-
 .footer .fitem .t-box a:hover {
   text-decoration: none;
 }
-
 .footer .fitem .post {
   color: #b1abab;
   font-size: 13px;
   margin-top: 10px;
 }
-
 .footer .fitem .custom {
   padding-top: 10px;
 }
-
 .footer .fitem .post img {
   float: left;
   margin-right: 10px;
 }
-
 .footer .fitem .post h5 {
   font-size: 15px;
   color: #ded4d4;
   margin-bottom: 15px;
 }
-
 .footer .fitem .Categ {
   list-style: none;
   padding-left: 0;
   overflow: hidden;
 }
-
 .footer .fitem .Categ li {
   padding: 10px 5px;
   border-bottom: 1px solid #6c6c6c;
   color: #ded4d4;
 }
-
 .footer .copyright {
   color: #b1abab;
 }
-/* ================================================================= */
- 
 .footer .fitem h2
 .footer .fitem .t-box a:hover,
 .blog-box .blog-details,
@@ -389,16 +323,12 @@ margin: 20px;
 .blog-box .blog-details p {
     color: #fff;
 }
-
- 
 .footer .fitem .socialicons,
 .footer .copyright,
 .blog-box,
 .blog-list {
     margin-top: 20px;
 }
-
- 
 .footer .fitem .socialicons,
 .footer .fitem .post,
 .page-title .title,
@@ -406,14 +336,10 @@ margin: 20px;
 .blog-list .blog-list-image {
     margin-bottom: 20px
 }
-
- 
 .blog-list h5 a,
 .about button {
     font-weight: 500;
 }
-
- 
 .footer .fitem h2,
 .footer .fitem p,
 .footer .fitem .Categ li,
@@ -422,14 +348,10 @@ margin: 20px;
 .about button {
     letter-spacing: 1px;
 }
-
- 
 .footer .fitem .t-box a:hover
 {
    background-color:#ffe056;
 }
-
-
 .footer .copyright span strong,
 .footer .fitem .socialicons li:hover
 {
