@@ -17,4 +17,25 @@ $(function () {
     }
   });
 
+  //Adding Nice Scroll To  Page
+  $("body").niceScroll({
+    cursorcolor:"#ffe056",
+    cursorwidth:"6px",
+    cursorborder:"none"       
+   });
+
+      // Caching The Scroll Top Element
+      var scrollButton = $("#scroll-top");
+      $(window).scroll(function () {
+        if ($(this).scrollTop() >= 700) {
+            scrollButton.show();
+        } else {
+            scrollButton.hide();
+        }
+    });
+    // Click On Button To Scroll Top
+    scrollButton.click(function () { 
+        $("html,body").animate({ scrollTop : 0 }, 600); 
+    });
+
 });

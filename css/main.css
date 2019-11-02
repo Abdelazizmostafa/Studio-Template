@@ -9,6 +9,8 @@ font-family: 'Poppins', sans-serif;
 } */
 
 /*=====================Start Navbar================== */
+
+
 .navbar-brand > span {
   font-size: 40px
 }
@@ -28,8 +30,13 @@ font-family: 'Poppins', sans-serif;
   font-weight: bold
 }
 .navbar-nav .active > .nav-link {
-  color: #ffe056 !important
+  color: #333 !important
 }
+/* .navbar{
+  background-color: #EFEFF7;
+}
+  */
+
 /*====================End Navbar====================== */
 /*====================Start Features================== */
 .features {
@@ -194,7 +201,7 @@ align-self: center;
 /* End Featured Work */
 /* Start Stats */
 .stats {
-  padding: 100px 0;
+  padding: 50px 0;
   color: #333;
   background-color: #ffe056;
 }
@@ -274,29 +281,27 @@ margin: 20px;
   }
 }
 
-.overview p {
-  line-height:1.5;
+.overview .section-description {
+  line-height: 1.6;
   font-size: 20px;
   width: 80%;
-  margin: 0 auto 40px;
+  margin: 0 auto 45px;
   color: #6a6a6a;
 }
+
 
 @media (max-width: 992px) {
   .overview p {
     width: 100%;
   }
 }
-
+@media (min-width: 375px) {
+  .overview p {
+    width: 100%;
+  }
+}
  
-
 /* End Overview */
- 
-
-
- 
-
-
 /*===============Starting Footer=======================*/
 
 .footer {
@@ -444,6 +449,28 @@ margin: 20px;
 .customized{
   background-color: #FFF;
 }
+/* ========================================================= */
+#scroll-top {
+  width: 50px;
+  height: 50px;
+  color: #DDD;
+  background-color:#DEB80D;
+  text-align: center;
+  position: fixed;
+  right: 15px;
+  bottom: 40px;
+  z-index: 9999;
+  display: none;
+  cursor: pointer;
+  border-radius: 50%
+}
 
+#scroll-top i {
+  margin: 10px;
+}
+
+#scroll-top:hover {
+  background-color: #444
+}
  
  
