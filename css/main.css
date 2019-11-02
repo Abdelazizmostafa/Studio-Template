@@ -198,8 +198,8 @@ align-self: center;
    
 }
 
-/* End Featured Work */
-/* Start Stats */
+/*===============End Featured Work===================== */
+/*=============== Start Stats========================== */
 .stats {
   padding: 50px 0;
   color: #333;
@@ -219,7 +219,7 @@ margin: 20px;
   font-size: 20px;
   margin: 0
 }
-/* End Stats */
+/*==================== End Stats========================== */
 
 /* Start Latest Posts */
 
@@ -295,11 +295,7 @@ margin: 20px;
     width: 100%;
   }
 }
-@media (min-width: 375px) {
-  .overview p {
-    width: 100%;
-  }
-}
+ 
  
 /* End Overview */
 /*===============Starting Footer=======================*/
@@ -457,7 +453,7 @@ margin: 20px;
   background-color:#DEB80D;
   text-align: center;
   position: fixed;
-  right: 15px;
+  right: 25px;
   bottom: 40px;
   z-index: 9999;
   display: none;
@@ -465,9 +461,9 @@ margin: 20px;
   border-radius: 50%
 }
 
-/* #scroll-top i {
-  margin: 10px;
-} */
+#scroll-top i {
+  margin: 6px;
+}
 
 #scroll-top:hover {
   background-color: #444
